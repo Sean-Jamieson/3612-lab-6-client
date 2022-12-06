@@ -1,4 +1,4 @@
-const socket = io("https://bright-eastern-mistake.glitch.me/:8080");
+const socket = io("https://bright-eastern-mistake.glitch.me/");
 document.addEventListener("DOMContentLoaded", function () {
   const users  = document.querySelector('#users ul');
   const messages = document.querySelector('.messages-body ul');
